@@ -25,7 +25,7 @@ def get_message():
 @app.route('/')
 def set_webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://your-app-name.onrender.com/' + TOKEN)
+    bot.set_webhook(url='https://telebot-vt70.onrender.com' + TOKEN)
     return "Webhook set!", 200
 
 DAILY_LIMIT = 20
